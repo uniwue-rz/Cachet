@@ -17,7 +17,7 @@ return [
             1 => 'Funktionsfähig',
             2 => 'Leistungsprobleme',
             3 => 'Teilweiser Ausfall',
-            4 => 'Schwerer Ausfall',
+            4 => 'Ausfall',
         ],
         'group' => [
             'other' => 'Andere Komponenten',

@@ -125,7 +125,7 @@ class ComponentGroup extends Model implements HasPresenter
      */
     public function components()
     {
-        return $this->hasMany(Component::class, 'group_id', 'id');
+        return $this->hasMany(Component::class, 'group_id', 'id')->orderBy('status','desc');
     }
 
     /**
